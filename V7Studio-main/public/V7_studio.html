@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <link rel="manifest" href="/site.webmanifest">
+    <title>V7 Studio & Event Management</title>
+</head>
+<body>
+    <div id="loading-screen" style="display: flex; align-items: center; justify-content: center; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #fff; z-index: 9999;">
+        <dotlottie-player src="https://lottie.host/933f8aa7-b96d-49a0-830b-87792794a4a5/W714wQwagS.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+    </div>
+    <header>
+        
+        <a href="#" class="logo">V7 studio & Event Management</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#package">Photo Package</a>
+            <a href="#event">Event Package</a>
+            <a href="#contact">Contact us</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div>
+            <h1 class="home-design">Welcome</h1>
+            <p class = "home-des">V7 Studio & Event Management</p>
+            
+
+        </div>
+    </section>
+    <section id="package">
+
+        <div class="slider-container">
+
+            <div class="slider">
+                <div class="slide gold">
+                    <h2 class="gold-des">Gold Package</h2>
+                    <button class="more-details">More Details</button>
+                    <div class="details">
+                        <p>Photography</p>
+                        <p>Videography</p>
+                        <p>Album with 500 pages(2 albums 250 each)</p>
+                        <p>Pre & Post wedding in 4+4 location</p>
+                        <p>5 Prints (5x7) Photo Frames</p>
+                        <p>INR 75K</p>
+                        <button class="book" data-package="gold">Book Now</button>
+                    </div>
+                </div>
+                <div class="slide silver">
+                    <h2 class="silver-des">Silver Package</h2>
+                    <button class="silver-more">More Details</button>
+                    <div class="silver-details">
+                        <p>Photography</p>
+                        <p>Videography</p>
+                        <p>Album with 250 pages</p>
+                        <p>Pre & Post wedding in 5 location</p>
+                        <p>3 Prints (8x10) Photo Frames</p>
+                        <p>INR 50K</p>
+                        <button class="book-silver" data-package="silver">Book Now</button>
+                    </div>
+                </div>
+                <div class="slide bronze">
+                    <h2 class="bronze-des">Bronze Package</h2>
+                    <button class="more-details">More Details</button>
+                    <div class="details">
+                        <p>Photography</p>
+                        <p>Videography</p>
+                        <p>Album with 120 pages</p>
+                        <p>Pre & Post wedding in 1 location</p>                        
+                        <p>INR 40K</p>
+                        <button class="book" data-package="bronze">Book Now</button>
+                    </div>
+                </div>
+                <div class="slide other">
+                    <h2 class="other-des">Other Package</h2>
+                    <button class="more-details" data-package="other">More Details</button>
+                    <div class="details">
+                        
+                        <div class="images">
+                            <img src="detail3.jpg" alt="Image 1" class="fullscreen-img">
+                            <img src="detail1.jpg" alt="Image 2" class="fullscreen-img">
+                            <img src="detail2.jpg" alt="Image 3" class="fullscreen-img">  
+                        </div>
+                        <button class="book">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <span class="prev-btn">
+                    <i class='bx bx-chevron-left'></i>
+                </span>
+                <span class="next-btn">
+                    <i class='bx bx-chevron-right' ></i>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="event">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide event1">
+                    <h1 class="event-des">Event Management <br> Packages</h1>
+                    <button class="more-details">More Details</button>
+                    <div class="details">
+                        <div class="images">
+                            <img src="premier.jpg" alt="Image 1" class="fullscreen-img">
+                            <img src="basic.jpg" alt="Image 2" class="fullscreen-img">
+                            <img src="other-event.jpg" alt="Image 3" class="fullscreen-img">
+                        </div>
+                        <button class="book" data-package="event">Book Now</button>
+                    </div>
+                    
+                </div>
+                <div class="navigation">
+                    <span class="prev-btn">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                    <span class="next-btn">
+                        <i class='bx bx-chevron-right' ></i>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div>
+            <img src="contact_logo.jpg" alt="instagram-logo" class="contact-img">
+        </div>
+        <div class="contact-container">
+            <p>Contact us at:</p>
+            <p>Mobile: <a href="tel:+916379916782">+91 63799 16782</a></p>
+            <p>Follow V7 studio photography: 
+                <a href="https://www.instagram.com/v7__studio__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <img src="insta-logo.png" alt="Instagram" class="instagram-logo">
+                </a>
+            </p>
+            <p>Follow V7 event management: 
+                <a href="https://www.instagram.com/v7__event__management?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <img src="insta-logo.png" alt="Instagram" class="instagram-logo">
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <form id="phone-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="phone-number">Enter your phone number:</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module" ></script> 
+    <script src="script.js"></script>
+    
+</body>
+</html>
